@@ -234,6 +234,9 @@ console.log(base, oldestMovie)
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
 */
 
+const moviesInArray = nOfMovies => nOfMovies = movies.length
+
+console.log(moviesInArray())
 
 
 /* ESERCIZIO 11 (map)
