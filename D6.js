@@ -250,6 +250,10 @@ console.log(onlyTitles)
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
 */
 
+const newMillenniumMovies = movies.filter(movie => parseInt(movie.Year) > 1999)
+
+console.log(newMillenniumMovies)
+
 /* ESERCIZIO 13 (reduce)
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
