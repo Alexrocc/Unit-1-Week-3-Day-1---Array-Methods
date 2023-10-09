@@ -219,10 +219,22 @@ const movies = [
 /* ESERCIZIO 9 (forEach)
   Scrivi una funzione per trovare il film più vecchio nell'array fornito.
 */
+let base = parseInt(movies[0].Year)
+console.log(base)
+movies.forEach(i => {
+  if(parseInt(i.Year) < base){
+    base = i.Year
+  } 
+  
+  })
+let oldestMovie = movies.find(item => item.Year === '1963')
+console.log(base, oldestMovie)
 
 /* ESERCIZIO 10
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
 */
+
+
 
 /* ESERCIZIO 11 (map)
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
