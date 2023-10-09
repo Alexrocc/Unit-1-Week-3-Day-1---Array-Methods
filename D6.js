@@ -258,6 +258,12 @@ console.log(newMillenniumMovies)
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
 
+const yearSum = movies.reduce((sum, movieYear) => {
+  movieYear = parseInt(movieYear.Year)
+  return sum + movieYear
+}, 0)
+console.log(yearSum)
+
 /* ESERCIZIO 14 (find)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
