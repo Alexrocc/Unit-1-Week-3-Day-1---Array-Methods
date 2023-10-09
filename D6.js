@@ -238,10 +238,13 @@ const moviesInArray = nOfMovies => nOfMovies = movies.length
 
 console.log(moviesInArray())
 
-
 /* ESERCIZIO 11 (map)
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
+
+const onlyTitles = movies.map(title => title.Title)
+
+console.log(onlyTitles)
 
 /* ESERCIZIO 12 (filter)
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
