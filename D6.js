@@ -268,6 +268,10 @@ console.log(yearSum)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
 
+const myChoiceMovie = movies.find(ID => ID.imdbID === 'tt2395427')
+
+console.log("My choice movie is: ", myChoiceMovie)
+
 /* ESERCIZIO 15 (findIndex)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.
 */
