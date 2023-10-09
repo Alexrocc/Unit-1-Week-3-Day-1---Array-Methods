@@ -277,5 +277,8 @@ console.log(myChoiceMovie)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.
 */
 
-const indexFunction = movies.findIndex(input => input.Year === 2015 )
+function fun(input){
+  return movies.findIndex(index => index.Year === input)
+  }
 
+console.log(fun('2012'))
